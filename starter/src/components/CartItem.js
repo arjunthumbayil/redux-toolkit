@@ -1,6 +1,7 @@
 import React from "react";
+import { ChevronDown, chevronUp } from "../icons";
 
-const CartItem = () => {
+const CartItem = ({ id, title, img, price, amount }) => {
   return <div>CartItem</div>;
 };
 
